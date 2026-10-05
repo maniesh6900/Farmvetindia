@@ -1,0 +1,21 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Env files — keep secrets/config out of git (.env.example stays tracked)
+.env
+.env.local
+.env.*.local
+
+# Logs & OS junk
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor
+.qodo
+.vscode/*
+!.vscode/extensions.json
+.idea
